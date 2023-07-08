@@ -1,0 +1,104 @@
+body{
+  
+}
+.loginScreen{
+   position: relative;
+   height: 100%;
+   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/d282a426-b01a-424c-9b83-2c2445e4b61a/f7eb3bc2-2867-4c7e-94f8-e62ec11175cd/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+.loginScreen-gradient{
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.8) 100%
+
+  );
+}
+.login-screen-logo{
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+.login-screen-button{
+  position: fixed;
+  right: 20px;
+  top:20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  border: none;
+}
+.body-container{
+  display: flex;
+  justify-content: center ;
+}
+.loginScreen-body{
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+}
+.loginScreen-body>h1{
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+.loginScreen-body>h2{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.loginScreen-body>h3{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.loginScreen-input{
+  margin: 20px;
+}
+.loginScreen-input>form{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.loginScreen-input>form>input{
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  max-width: 600px ;
+  font-size: 1rem;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-style: solid;
+  border-color: gray;
+}
+.get-started-button{
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
